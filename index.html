@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    GoYatri
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author:Milan Hembram , home and testimonials part" content="Milan Hembram">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+  <link rel="stylesheet" href="css\style.css">
+  <!-- <script src="javaScript\script.js"></script> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    .checked{
+        color: orange;
+    }
+    .nav-item:hover {
+        background-color: rgb(141, 201, 224);
+    }
+
+</style>
+</head>
+
+<body>
+  <div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand" href="index.html">GoYatri.com</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-fill w-100">
+          <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="view_tours.html">View Tours</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="about.html" >About Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="review.html">Testimonials</a>
+          </li>
+          </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container mt-1">
+    <div class="row">
+      <div class="col-9 " style="margin: 0 auto;">
+        <div class="row fa-icon">
+          <div class="col-2 ">
+            <i class="fa fa-train" aria-hidden="true">
+            </i>
+            <p class="icon-text">Train</p>
+          </div>
+          <div class="col-2 ">
+            <i class="fa fa-plane" aria-hidden="true"></i>
+            <p class="icon-text">Flight</p>
+          </div>
+          <div class="col-2 ">
+            <i class="fa fa-bus" aria-hidden="true"></i>
+            <p class="icon-text">Bus</p>
+          </div>
+          <div class="col-2 ">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <p class="icon-text">Car</p>
+          </div>
+          <div class="col-2 ">
+            <i class="fa fa-bed" aria-hidden="true"></i>
+            <p class="icon-text">Hotels</p>
+          </div>
+          <div class="col-2 ">
+            <p class="" style="float: left;font-weight: bold;color:red;">Explore more
+              <i class="fa fa-sort-desc" aria-hidden="true"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--2nd Section for Train Booking-->
+    <div class="row train_field shadow-lg p-3 mb-5 bg-white rounded">
+      <div class="col-3">
+        <div class="form-group">
+          <label for="train_from">FROM</label>
+          <input type="text" class="form-control" id="train_form" placeholder="Delhi">
+          <small id="train_from_input" class="form-text text-muted">DEL,Delhi Airport</small>
+        </div>
+
+      </div>
+      <div class="col-3 ">
+        <div class="form-group"">
+          <label for=" train_to">TO</label>
+          <input type="text" class="form-control" id="train_to" placeholder="Kolkata">
+          <small id="train_to_input" class="form-text text-muted">CCU,West Bengal</small>
+        </div>
+      </div>
+      <div class="col-2">
+        <P>DEPARTURE<i class="fa fa-angle-down"
+            style="color: red;font-weight: bold;font-size: 20px;padding-left: 5px;"></i> </P>
+        <div class="form-group"">
+              <input type=" date" class="form-control" id="train_to" placeholder="Kolkata">
+        </div>
+      </div>
+      <div class="col-2">
+        <P>RETURN<i class="fa fa-hand-o-down"
+            style="color: red;font-weight: bold;font-size: 20px;padding-left: 5px;"></i> </P>
+        <p style="font-size: 14px;color: #ccc;">Click here for get discount accoring to dat</p>
+      </div>
+      <div class="col-2">
+        <P>TRAVELLERS & CLASS </P>
+        <div class="form-group">
+          <input type="text" class="form-control" id="train_to" placeholder="1 Traveller">
+          <small id="train_to_input" class="form-text text-muted">Economy/Premium Economy</small>
+        </div>
+      </div>
+      <button class="btn btn-primary" style="margin: 0 auto !important;font-size: 20px;">Search</button>
+    </div>
+
+
+    <!--COVID notification-->
+
+    <div class="row shadow p-3 mb-5 bg-white rounded" style="margin-top: 20px;">
+      <!--Margin-top:20px;-->
+      <div class="col-6">
+        <img src="photo/covid_1.jpg" class="covid_1_photo">
+      </div>
+      <div class="col-6">
+        <div>
+          <p class="covid_1_text">We are Ready to serve you better in this pandemic</p>
+          <p>As we resume operations, considering the COVID-19 situation, different state governments have laid out
+            their respective protocols for passengers arriving at their airports. Before you travel, make sure to read
+            and understand the complete guidelines of the city/state you are travelling to and comply with the same so
+            as to ease your travel plans. <button class="btn btn-primary">CliCK here</button> to download the customer
+            support guide for state-wise regulations
+            updated as of 21st June, 2021. State-regulations are subject to change, please also visit the state
+            government website for further details.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Offers Section text-->
+    <div class="container" style="height: 60px; background-color: red;">
+      <center>
+        <h1 style="color: white;">Supper Offers This July</h1>
+      </center>
+    </div>
+
+    <!--Offer section box-->
+
+    <div class="row shadow p-3 mb-5 bg-white rounded" style="margin-top: 25px;">
+      <div class="col-3">
+        <img class="card-img-top" src="photo/offer1.jpg" alt="Offer1">
+        <div class="card-body">
+          <h5 class="card-title">Starting from 999/-</h5>
+          <p class="card-text">Book Domestic Flight at just @999.</p>
+          <a href="#" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+      <div class="col-3">
+        <img class="card-img-top" src="photo/offer2.jpg" alt="Offer2">
+        <div class="card-body">
+          <h5 class="card-title">HDFC DISCOUNTS</h5>
+          <p class="card-text">Get Upto 20% cash back on HDFC credit cards</p>
+          <a href="#" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+      <div class="col-3">
+        <img class="card-img-top" src="photo/offer3.jpg" alt="offer3">
+        <div class="card-body">
+          <h5 class="card-title">Insurance</h5>
+          <p class="card-text">Get upto 1lakhs COVID insurance ..</p>
+          <a href="#" class="btn btn-primary">Know More</a>
+        </div>
+      </div>
+      <div class="col-3">
+        <img class="card-img-top" src="photo/offer4.jpg" alt="offer4">
+        <div class="card-body">
+          <h5 class="card-title">200/- Off</h5>
+          <p class="card-text">200/- off on first 3 cab booking to airport</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div><br>
+
+    <!--Holiday -->
+    <div class="row border trip_1 shadow p-3 mb-5 bg-white rounded">
+      <div class="col-4">
+        <a href="shimla.html">
+          <img src="photo/shimla.jpg" alt="" class="co_img">
+          <p class="co_p">Shimla</p>
+          <small>Shimla Tourism</small>
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="srinagar.html">
+          <img src="photo/offer1.jpg" alt="" class="co_img">
+          <p class="co_p">Srinagar</p>
+          <small>Srinagar Tourism</small>
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="thailand.html">
+          <img src="photo/offer1.jpg" alt="" class="co_img">
+          <p class="co_p">Thailand</p>
+          <small>Thailand Tourism</small>
+        </a>
+      </div>
+    </div>
+
+    <div class="row border trip_1 shadow p-3 mb-5  rounded bg-primary">
+      <center><a href="#" style="color: white;">Click Here to Explore More</a></center>
+    </div>
+
+    <!--Sign up-->
+
+  </div>
+  </div>
+  <div class="container-fluid p-5 bg-light">
+    <div class="row">
+      <div class="col-2">
+        <h4>PRODUCT OFFERING</h4>
+        <ul>
+          <li>Flight</li>
+          <li>International Flight</li>
+          <li>Charter Flight</li>
+          <li>Vande Bharat Mission Flights</li>
+          <li>Air Bubble Flight</li>
+          <li>Hotels</li>
+          <li>International Hotels</li>
+          <li>Cabs</li>
+          <li>Bus Tickets</li>
+          <li>Train Tickets</li>
+          <li>Route Planner</li>
+          <li>Flight Status</li>
+          <li>Mobile Apps</li>
+          <li>Kumbh Mela</li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <h4>GoYatri.com</h4>
+        <ul>
+          <li>About Us</li>
+          <li>Testimonial</li>
+          <li>weekend Foundation</li>
+          <li>Honeymoon Destinations</li>
+          <li>Romantic Destinations</li>
+          <li>Popular Destinations</li>
+          <li>Goa</li>
+          <li>Manali</li>
+          <li>Shimla</li>
+          <li>Srinagar</li>
+          <li>Maldives</li>
+          <li>Agra</li>
+          <li>Ooty</li>
+          <li>Coorg</li>
+          <li>Kovalam</li>
+          <li>Bali</li>
+        </ul>
+      </div>
+      <div class="col-2">
+
+      </div>
+      <div class="col-2">
+        <h4>About The Site</h4>
+        <ul>
+          <li>Contact Us</li>
+          <li>Payment Security</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <h4>More Links</h4>
+        <ul>
+          <li>Family Packages</li>
+          <li>Beach Packages</li>
+          <li>Maldives Packages</li>
+          <li>Bali Tour Packages</li>
+          <li>Dubai Tour Packages</li>
+          <li>Nepal Tour Packages</li>
+          <li>Shimla Tour Packages</li>
+          <li>Goa Tour Packages</li>
+          <li>Ooty Tour Packages</li>
+          <li>Bhutan Tour Packages</li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <h4>Connect With US</h4>
+        <ul>
+          <a href="#"><li>Sign Up </li></a>
+          <a href="#"><li>Log In </li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>

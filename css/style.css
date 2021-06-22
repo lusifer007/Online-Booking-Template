@@ -1,0 +1,85 @@
+body {
+    min-height: 75rem;
+
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-box{
+    width: 100%;
+    height:800px;
+   
+}
+div .fa-icon i{
+    font-size: 30px;
+    color: red;
+}
+div .fa-icon i , .icon-text:hover{
+    cursor:pointer ;
+}
+.icon-text{
+    font-family: sans-serif;
+    padding: 0px 0px 0px 0px;
+
+}
+.train_field{
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.train_field .col-3,.train_field .col-2{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.train_from , .train_to{
+    font-weight: bold;
+
+}
+.covid_1_photo{
+    width: 80%;
+    border-radius: 10px;
+}
+.covid_1_text{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: deepskyblue;
+}
+.offer_main_div .card{
+    width: 25% !important;
+   
+    display: block !important;
+    height: 450px;
+}
+.offer_main_div{
+    background-color: black !important;
+    display: block !important;
+}
+.holiday-sub {
+    margin-top: 500px;
+    width: 50px;
+    border-radius: 50%;
+}
+.holiday_spot img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.co_img{
+    padding: 10px;
+    width: 20%;
+    border-radius: 50%;
+    float: left;
+    
+}
+.co_p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.trip_1{
+
+}
